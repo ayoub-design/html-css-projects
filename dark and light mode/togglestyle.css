@@ -1,0 +1,225 @@
+
+
+   *{
+    font-family: century gothic ;
+    letter-spacing: 2px;
+    
+  }
+body{
+height: 100%;
+width: 100%;
+margin: 0;
+padding: 0;
+background: black;
+color: blanchedalmond;
+
+
+
+
+}
+ .box{
+width: 300px;
+padding: 40px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+background: black;
+text-align: center;
+border-radius: 22px;
+box-shadow: 5px 5px 15px #1e1e1e,
+          -5px -5px 15px #343434;
+
+
+
+ }
+ .box input[type= "text"] , .box input[type = "password"]
+{
+border: 0;
+background: none;
+display: block;
+margin: 20px auto;
+text-align: center;
+border: 2px solid #fff;
+padding: 10px 14px;
+width: 200px;
+outline: none;
+color: white;
+border-radius: 25px;
+transition: 0.25sec;
+
+
+}
+.box input[type= "text"]:focus , .box input[type = "password"]:focus
+{
+width: 280px;
+border-color: rgb(131, 122, 122);
+
+}
+.box input[type = "submit"]
+{
+  display: inline-block;
+  font-size: 1.1em;
+  color: #fff;
+  background: black;
+  box-shadow:inset 0 0 0 0 #fff;
+  transition: ease-out 0.3s;
+  padding: 10px;
+  border-radius: 25px;
+  text-decoration: none;
+  width: 200px;
+  height: 50px;
+  border-color: #fff;
+  cursor: pointer;
+   
+
+
+
+}
+.box input[type = "submit"]:hover
+{
+  box-shadow:inset 200px 0 0 0 #fff;
+  color:black ;
+  border-color: black;
+  
+}
+.top h1{
+  
+width: 100%;
+height: 20%;
+text-align: center;
+color: #fff;
+
+}
+.toggle{
+    color: black;
+    position:absolute;
+    top: 100px;
+    left: 50%;
+    width: 60px;
+    height: 60px;
+    background: #fff;
+    cursor: pointer;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-color: black;
+    
+
+   }
+
+   .toggle::before{
+
+    content: '\f185';
+    font-family: fontAwesome;
+    font-size: 24px;
+
+   }
+
+ body.light .toggle
+ {
+    background: black;
+    color: #fff;
+
+ }  
+ body.light  .toggle::before{
+
+    content: '\f186';
+ }
+ 
+ body.light{
+
+    background: #fff;
+ }
+ body{
+
+    background: black;
+ }
+ body.light   .box{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #fff;
+    text-align: center;
+    border-radius: 22px;
+    box-shadow: 5px 5px 15px #1e1e1e,
+              -5px -5px 15px #343434;
+    
+    
+    
+     }
+     body.light  .top h1{
+  
+        width: 100%;
+        height: 20%;
+        text-align: center;
+        color:black;
+         
+      }
+        body.light .box h1{
+
+             
+            color: black;
+        }
+
+
+
+    body.light    .box input[type = "submit"]
+{
+  display: inline-block;
+  font-size: 1.1em;
+  color: #111;
+  background: #fff;
+  box-shadow:inset 0 0 0 0 black;
+  transition: ease-out 0.3s;
+  padding: 10px;
+  border-radius: 25px;
+  text-decoration: none;
+  width: 200px;
+  height: 50px;
+  border-color: black;
+  cursor: pointer;
+
+
+
+}
+
+body.light  .box input[type = "submit"]:hover
+{
+  box-shadow:inset 200px 0 0 0 black;
+  color: #fff;
+  
+}
+
+
+
+
+
+ body.light    .box input[type= "text"] ,  body.light  .box input[type = "password"]
+{
+border: 0;
+background: none;
+display: block;
+margin: 20px auto;
+text-align: center;
+border: 2px solid black;
+padding: 10px 14px;
+width: 200px;
+outline: none;
+color: black;
+border-radius: 25px;
+transition: 0.25sec;
+
+
+}
+
+body.light  .box input[type= "text"]:focus ,body.light  .box input[type = "password"]:focus
+{
+width: 280px;
+border-color: rgb(68, 61, 61);
+
+}
